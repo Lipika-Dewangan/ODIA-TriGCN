@@ -1,36 +1,9 @@
 # Odia-TriGCN: Aspect Sentiment Triplet Extraction for Low-Resource Odia
 
-## Repository Structure
-
-```
-Odia-TriGCN/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── train.conllu
-│   ├── dev.conllu
-│   ├── test.conllu
-│   └── odia_treebank.json
-├── parser/
-│   ├── odia_dependency_parser.py
-│   └── train_parser.py
-├── model/
-│   ├── trigcn.py
-│   ├── gcn_layers.py
-│   └── biaffine_attention.py
-├── utils/
-│   ├── evaluation.py
-│   ├── grid_decoder.py
-│   └── tree_distance.py
-├── main.py
-├── config.yaml
-└── assets/
-    └── ODIA-TRIPLET-Page-2.drawio.pdf
-```
 
 ## main.py
 
-```python
+
 import torch
 from model.trigcn import OdiaTriGCN
 from utils.evaluation import evaluate_model
@@ -59,11 +32,11 @@ if __name__ == '__main__':
             output = model(**item)
             triplets = decode_triplets(output)
             print("Predicted Triplets:", triplets)
-```
+
 
 ## model/trigcn.py
 
-```python
+
 import torch
 import torch.nn as nn
 from transformers import AutoModel
@@ -94,7 +67,6 @@ class OdiaTriGCN(nn.Module):
         logits = self.grid_classifier(fused)
 
         return logits
-```
 
-## Diagram
-The full model architecture is provided in `assets/ODIA-TRIPLET-Page-2.drawio.pdf`.
+
+
