@@ -1,0 +1,12 @@
+{
+  "bert_model": "bert-base-multilingual-cased",
+  "learning_rate": 2e-5,
+  "batch_size": 16,
+  "max_epochs": 20,
+  "seed": 42,
+  "hidden_dim": 768,
+  "gcn_layers": 2,
+  "dropout": 0.3,
+  "num_classes": 6,
+  "output_dir": "./checkpoints"
+}
