@@ -1,0 +1,51 @@
+Odia Word	Transliteration	English Translation	POS	Dependency Relation
+ପଖାଳ	Pakhala	Fermented rice	NOUN	obj
+ଭାତ	Bhaata	Cooked rice	NOUN	obj
+ଦାଲି	Dali	Lentils	NOUN	obj
+ପକାଳ	Pakaala	Soaked rice	NOUN	obj
+ସାଗ	Saaga	Leafy greens	NOUN	amod
+ପିଠା	Pitha	Rice cake	NOUN	nmod
+ଚଟଣୀ	Chatani	Chutney	NOUN	obj
+ବସ୍ତ୍ର	Bastra	Clothing	NOUN	nsubj
+ସାରୀ	Saree	Saree	NOUN	nmod
+ଗମଛା	Gamchha	Towel	NOUN	nmod
+କପଡ଼ା	Kapadaa	Cloth	NOUN	nmod
+ଜାମା	Jaamaa	Shirt	NOUN	nsubj
+ପାଟ	Paata	Silk	NOUN	compound
+କଟାନ	Kataan	Cotton	NOUN	compound
+ସୁତା	Sutaa	Thread	NOUN	compound
+ସିଲାଇ	Silaaee	Stitching	VERB	acl
+ବଟନ	Button	Button	NOUN	nmod
+ଇଲେକ୍ଟ୍ରିକ୍	Electric	Electric	ADJ	amod
+ମୋବାଇଲ	Mobile	Mobile	NOUN	nsubj
+ଲାପଟପ	Laptop	Laptop	NOUN	nsubj
+ଟିଭି	TV	TV	NOUN	nsubj
+ରିମୋଟ୍	Remote	Remote	NOUN	nmod
+ଚାର୍ଜର	Charger	Charger	NOUN	obj
+ହେଡଫୋନ୍	Headphone	Headphones	NOUN	obj
+ସ୍କ୍ରିନ୍	Screen	Screen	NOUN	nmod
+ବ୍ୟାଟେରୀ	Battery	Battery	NOUN	nmod
+ପ୍ଲଗ୍	Plug	Plug	NOUN	obl
+କେବଲ୍	Cable	Cable	NOUN	obl
+କାମେରା	Camera	Camera	NOUN	nsubj
+ମାଇକ୍	Mic	Mic	NOUN	nmod
+ପାଚନ	Paachana	Digestion	VERB	acl
+ସ୍ୱାଦ	Swaada	Taste	NOUN	amod
+ତେଲ	Tela	Oil	NOUN	nmod
+ଲୁଣ	Luna	Salt	NOUN	obj
+ମସଲା	Masalaa	Spices	NOUN	compound
+ପକା	Pakaa	Cooked	VERB	acl
+ଚିନି	Chini	Sugar	NOUN	obj
+ଭାରି	Bhaari	Heavy	ADJ	amod
+ହାଲୁକା	Haalukaa	Light	ADJ	amod
+ନୂତନ	Nootana	New	ADJ	amod
+ପୁରୁଣା	Puruna	Old	ADJ	amod
+ସୁନ୍ଦର	Sundara	Beautiful	ADJ	amod
+ଫ୍ୟାସନ୍	Fashion	Fashion	NOUN	amod
+ଦାମ	Daama	Price	NOUN	nmod
+ସସ୍ତା	Sastaa	Cheap	ADJ	amod
+ମୂଲ୍ୟ	Mulya	Value	NOUN	nmod
+ଦେଖା	Dekhaa	See	VERB	root
+ଆକୃତି	Aakruti	Shape	NOUN	nmod
+ଉପକରଣ	Upakarana	Appliance	NOUN	nmod
+ସ୍ଥାୟୀ	Sthaayee	Durable	ADJ	amod
