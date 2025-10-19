@@ -1,10 +1,14 @@
 # ODIA-TriGCN
-Odia-TriGCN is a triplet extraction model tailored for the low-resource Odia language, designed to perform Aspect Sentiment Triplet Extraction (ASTE) by leveraging both contextual and syntactic signals. Odia-TriGCN integrates:
-A multilingual contextual encoder (mBERT),
+Odia-TriGCN is a triplet extraction framework designed for the low-resource Odia language. It performs Aspect Sentiment Triplet Extraction (ASTE) by jointly leveraging contextual, syntactic, and auxiliary signals to identify structured (Aspect, Opinion, Sentiment) triplets from Odia text.
+Odia-TriGCN combines multiple complementary components:
 
-A Tri-Channel Graph Convolutional Network capturing syntactic relations, tree-based distances, and biaffine attention,
+Multilingual Contextual Encoder (mBERT): captures deep semantic and contextual representations.
 
-A Grid Tagging representation for structured triplet decoding.
+Tri-Channel Graph Convolutional Network (GCN): models syntactic relations, tree-based distances, and biaffine semantic attention for fine-grained structural reasoning.
+
+Auxiliary Feature Integration: incorporates sentiment- and emotion-rich cues from an Odia news corpus and cross-lingual supervision using an Odia–English parallel corpus to enhance contextual generalization.
+
+Grid-Tagging Representation: enables structured decoding of triplets within a unified framework.
 
 The model is trained and evaluated on a manually curated Odia-Triplet dataset, enabling the extraction of structured (Aspect, Opinion, Sentiment) triplets from Odia text.
 
